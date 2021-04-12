@@ -1,8 +1,3 @@
----
-layout: home
-author_profile: true
----
-
 ## Welcome to Ethan's Pages
 
 Here is a place where I would gather and record many things I'm interested in.
