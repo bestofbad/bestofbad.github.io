@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "첫 포스트"
+title: "test post"
 date: "2021-04-12 00:00:00 +0900"
 last_modified_at: "2021-04-12 00:00:00 +0900"
 ---
