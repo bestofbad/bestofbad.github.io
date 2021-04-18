@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-Korea"
+locale                   : "ko-KR"
 title                    : "Still Waters Run Deep"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ethan"
-description              : "As you see..."
-url                      : "https://bestofbad.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "새로운 분야(Deep Learning)에 도전을 하는 동안 필요한 정보를 모아 정리하는 곳"
+url                      : "https://bestofbad.github.io" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bestofbad/bestofbad.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "bestofbad/bestofbad.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Still Waters Run Deep"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true #, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:

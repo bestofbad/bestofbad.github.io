@@ -1,0 +1,22 @@
+---
+layout: single
+author_profile: true
+sidebar:
+  nav: "main"
+---
+
+
+You can find a little notes for studying about basic deep learning with Pytorch
+
+{% for category in site.categories %}
+  {% if category[0] == "py_BDL" %}
+    <h3>{{ category[0] }}</h3>
+    <ul>
+      {% for post in category[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+

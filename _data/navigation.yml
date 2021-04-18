@@ -1,8 +1,20 @@
 # main links
 main:
   - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Pytorch Codes"
-    url: https://github.com/ethan-kim-ys/Pytorch-Study/
-  #- title: "Sitemap"
-    url: /sitemap/
+    url: /about/#page-title
+  - title: "Pytorch"
+    url: /pytorch/
+    children:
+      - title: "Basic Deep Leaning"
+        url: /pytorch/py_BDL/
+      - title: "Some Notes"
+        url: /py_sn/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
