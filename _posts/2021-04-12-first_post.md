@@ -6,7 +6,7 @@ last_modified_at: "2021-04-12 00:00:00 +0900"
 sidebar:
   nav: "main"
 
-categories: [pytorch]
+categories: [DL]
 tags: [study]
 ---
 

@@ -1,20 +1,84 @@
 # main links
 main:
   - title: "About"
-    url: /about/#page-title
+    url: /about/
+  - title: "Deep Learning"
+    url: /DL/
+  - title: "Python"
+    url: /Python/
+  - title: "on my own"
+    url: /myown/
+  - title: "Blogroll"
+    url: /Blogroll/
+
+
+# Deep Learning links
+DL:
   - title: "Pytorch"
-    url: /pytorch/
     children:
-      - title: "Basic Deep Leaning"
-        url: /pytorch/py_BDL/
-      - title: "Some Notes"
-        url: /py_sn/
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
+      - title: "Basic Practice (기본 코딩)"
+        url: /torchbasic/
+      - title: "Useful Tips (유틸 코드)"
+        url: /DL/pytorch/torchtip/
+
+  - title: "Tensorflow"
     children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
+      - title: "Basic Practice (기본 코딩)"
+        url:
+      - title: "Useful Tips (유틸 코드)"
+        url:
+
+  - title: "Object Detection"
+    children:
+      - title: "First (미정)"
+        url:
+      - title: "Second (미정)"
+        url:
+
+
+# Python links
+Python:
+  - title: "Packages (주요 패키지)"
+    children:
+      - title: "First (미정)"
+        url: 
+      - title: "Second (미정)"
+        url:
+
+  - title: "Other (그 외)"
+    children:
+      - title: "First (미정)"
+        url: 
+      - title: "Second (미정)"
+        url:
+
+
+# on my own links
+myown:
+  - title: "Codes (개인 작성)"
+    children:
+      - title: "Data Treatment (분석용)"
+        url: 
+      - title: "for my work (업무편의용)"
+        url:
+
+  - title: "Time off (좀 쉬기)"
+    children:
+      - title: "Drawing (그림)"
+        url: 
+      - title: "other(그 외)"
+        url:
+
+
+# Blogroll links
+Blogroll:
+  - title: "Deep Learning"
+    url: 
+  - title: "Object Detection"
+    url: 
+  - title: "Python"
+    url: 
+  - title: "Settings"
+    url: 
+
+
