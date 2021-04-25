@@ -1,17 +1,14 @@
 ---
 layout: single
-title: "Basic Practice in Pytorch"
-permalink: /torchbasic/
-post_categories: torchbasic
+title: "Helpful with diverse matters"
+permalink: /bSet/
+post_categories : bSet
 author_profile: true
 sidebar:
-  nav: "DL"
-
+  nav: "Blogroll"
 ---
 
-front page
-
-Basic Practice in Pytorch
+Setting front page
 
 
 {% for category in site.categories %}

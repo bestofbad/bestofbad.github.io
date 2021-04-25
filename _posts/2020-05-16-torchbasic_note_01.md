@@ -67,6 +67,6 @@ class Model_Name(nn.Module):
 ```
 
 ---
-- ['PyTorch로 시작하는 딥 러닝 입문' Linear Regression](https://wikidocs.net/60036)
-- ['PyTorch로 시작하는 딥 러닝 입문' Logistic Regression](https://wikidocs.net/60037)
+- [Linear Regression](https://wikidocs.net/60036)
+- [Logistic Regression](https://wikidocs.net/60037)
 {: .notice--info}
