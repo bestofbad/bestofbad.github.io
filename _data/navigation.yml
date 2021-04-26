@@ -72,13 +72,15 @@ myown:
 
 # Blogroll links
 Blogroll:
-  - title: "Deep Learning"
-    url: 
-  - title: "Object Detection"
-    url: 
-  - title: "Python"
-    url: 
-  - title: "Settings"
-    url: /bSet/
+  - title: "Blogroll (참고 블로그)"
+    children:
+    - title: "Deep Learning"
+      url: /bDL/
+    - title: "Object Detection"
+      url: 
+    - title: "Python"
+      url: 
+    - title: "Settings"
+      url: /bSet/
 
 
