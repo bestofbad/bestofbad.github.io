@@ -1,14 +1,14 @@
 ---
 layout: single
 title: "Helpful with diverse matters"
-permalink: /bDL/
-post_categories : bDL
+permalink: /bOD/
+post_categories : bOD
 author_profile: true
 sidebar:
   nav: "Blogroll"
 ---
 
-front page for Blogs about Deep Learning
+front page for Blogs about Object Detection
 
 
 {% for category in site.categories %}

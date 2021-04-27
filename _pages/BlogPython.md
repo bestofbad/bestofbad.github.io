@@ -1,14 +1,14 @@
 ---
 layout: single
 title: "Helpful with diverse matters"
-permalink: /bDL/
-post_categories : bDL
+permalink: /bPy/
+post_categories : bPy
 author_profile: true
 sidebar:
   nav: "Blogroll"
 ---
 
-front page for Blogs about Deep Learning
+front page for Blogs about Python
 
 
 {% for category in site.categories %}
