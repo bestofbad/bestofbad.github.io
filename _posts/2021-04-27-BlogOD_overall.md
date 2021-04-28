@@ -12,4 +12,5 @@ sidebar:
 
 
 ## 전반적 정리된 참고 블로그
+- [GIS Developer / 공간정보시스템](http://www.gisdeveloper.co.kr/?cat=8)
 - [딥러닝, 패기있게](https://ballentain.tistory.com/category/Deep%20Learning/TF%20Object%20Detection%20API)
