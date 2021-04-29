@@ -11,4 +11,4 @@ sidebar:
 - [YW & YY's Python, Machine & Deep Learning](https://greeksharifa.github.io/blog/categories/)
 - [데이터 사이언스 스쿨](https://datascienceschool.net/intro.html)
 - [bskyvision](https://bskyvision.com/notice/1103)
-
+- [Just Do It And Then Some](https://junha1125.github.io/)
