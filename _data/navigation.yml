@@ -19,7 +19,7 @@ DL:
       - title: "Basic Practice (기본 코딩)"
         url: /torchbasic/
       - title: "Useful Tips (유틸 코드)"
-        url: /DL/pytorch/torchtip/
+        url: /torchtip/
 
   - title: "Tensorflow"
     children:

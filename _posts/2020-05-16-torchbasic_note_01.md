@@ -8,6 +8,9 @@ sidebar:
   nav: "DL"
 ---
 
+이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 관련 그림 및 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/1.%20Model%EC%9D%84%20Class%EB%A1%9C%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%B0%A9%EB%B2%95.ipynb)으로도 보실 수 있습니다.
+{: .notice--warning}
+
 ## Model을 Class로 만드는 방법
 
 ### 로지스틱 회귀 모델 예

@@ -1,18 +1,17 @@
 ---
-layout: my_archive
-title: "Deep Learning"
-permalink: /DL/
-post_categories: DL
+layout: single
+title: "Useful Tips in Pytorch"
+permalink: /torchtip/
+post_categories: torchtip
 author_profile: true
 sidebar:
   nav: "DL"
 
 ---
 
-관심있는 Deep Learning 분야를 공부하면서 정리한 포스트입니다.
+front page
 
-This page is a notebook for self-study about Deep Learning I have been interested in.
-
+Useful Tips in Pytorch.
 
 
 {% for category in site.categories %}
