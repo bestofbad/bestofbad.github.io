@@ -24,16 +24,16 @@ DL:
   - title: "Tensorflow"
     children:
       - title: "Basic Practice (기본 코딩)"
-        url:
+        url: /tf-basic/
       - title: "Useful Tips (유틸 코드)"
-        url:
+        url: /tf-tip/
 
   - title: "Object Detection"
     children:
       - title: "First (미정)"
-        url:
+        url: /object1/
       - title: "Second (미정)"
-        url:
+        url: /object2/
 
 
 # Python links
@@ -41,16 +41,16 @@ Python:
   - title: "Packages (주요 패키지)"
     children:
       - title: "First (미정)"
-        url: 
+        url: /package1/
       - title: "Second (미정)"
-        url:
+        url: /package2/
 
   - title: "Other (그 외)"
     children:
       - title: "First (미정)"
-        url: 
+        url: /other1/
       - title: "Second (미정)"
-        url:
+        url: /other2/
 
 
 # on my own links
@@ -58,16 +58,16 @@ myown:
   - title: "Codes (개인 작성)"
     children:
       - title: "Data Treatment (분석용)"
-        url: 
+        url: /treatment/
       - title: "for my work (업무편의용)"
-        url:
+        url: /work/
 
   - title: "Time off (좀 쉬기)"
     children:
       - title: "Drawing (그림)"
-        url: 
+        url: /drawing/
       - title: "other(그 외)"
-        url:
+        url: /killing/
 
 
 # Blogroll links

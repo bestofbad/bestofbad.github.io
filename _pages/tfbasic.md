@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Useful Tips in Pytorch"
-permalink: /torchtip/
-post_categories: torchtip
+title: "Basic Practice in Tensorflow"
+permalink: /tf-basic/
+post_categories: tf-basic
 author_profile: true
 sidebar:
   nav: "DL"
@@ -10,8 +10,6 @@ sidebar:
 ---
 
 front page
-
-
 
 
 {% for category in site.categories %}
