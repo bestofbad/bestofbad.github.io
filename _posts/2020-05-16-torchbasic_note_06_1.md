@@ -3,14 +3,10 @@ layout: my_archive
 title: "06-1. Convolutional Neural Network 개념"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
-tags: [Deep Learning, Pytorch, Basic Practice]
+tags: [Deep Learning, Pytorch, Basic Practice, CNN, Convolutional Neural Network]
 sidebar:
   nav: "DL"
 ---
-
-이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 관련 그림 및 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/6-1.%20Convolutional%20Neural%20Network.ipynb)으로도 보실 수 있습니다.  
-You can also see the following as [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/6-1.%20Convolutional%20Neural%20Network.ipynb) along with related images and execution result screens if you have no trouble connecting to the Github.
-{: .notice--warning}
 
 ## Convolutional Neural Network
 
@@ -50,7 +46,7 @@ You can also see the following as [Jupyter notebook](https://github.com/bestofba
 
 - Input Image에 Convolution 과정을 수행하는 것은 단지 수치적 연산이다.  
   이 numerical result에 Pooling을 하는 것은 특성 추출 과정인데, linear Model과 Activation Function을 통해 확률값(probabilities)으로 변환한 것이 바로 subsample이다.   
-  따라서 Convolution 층은 numerical matrices인 반면, Subsample은 항상 featured pictures이다
+  따라서 Convolution 층은 numerical matrices인 반면, Subsample은 항상 featured pictures이다.
 
 
 ---

@@ -58,7 +58,7 @@
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-size: $type-size-4;
 }
 
 .masthead__menu {
@@ -71,7 +71,7 @@
   .site-nav {
     margin-left: 0;
 
-    @include breakpoint($small) {
+    @include breakpoint($x-large) {
       float: right;
     }
   }

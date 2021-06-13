@@ -1,9 +1,9 @@
 ---
 layout: my_archive
-title: "00.  구조"
+title: "07. 다대일 RNN 기본 Modeling"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
-tags: [Deep Learning, Pytorch, Basic Practice]
+tags: [Deep Learning, Pytorch, Basic Practice, Recurrent Neural Network, RNN, many to one]
 sidebar:
   nav: "DL"
 ---

@@ -3,12 +3,13 @@ layout: my_archive
 title: "04. Softmax Regression"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
-tags: [Deep Learning, Pytorch, Basic Practice]
+tags: [Deep Learning, Pytorch, Basic Practice, Softmax Regression, F.cross_entropy]
 sidebar:
   nav: "DL"
 ---
 
-이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 관련 그림 및 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/4.%20Softmax%20Regression.ipynb)으로도 보실 수 있습니다.
+이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/4.%20Softmax%20Regression.ipynb)으로도 보실 수 있습니다.  
+You can also see the following as [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/4.%20Softmax%20Regression.ipynb) along with execution result screens if you have no trouble connecting to the Github.
 {: .notice--warning}
 
 ## 소프트맥스 회귀(Softmax Regression)
@@ -18,12 +19,19 @@ sidebar:
 
 ### Softmax function (소프트맥스 함수)
 - 어떤 값들로 구성된 n개 행렬 원소를 받으면, 이를 normalize 하는 개념으로, 0~1 사이의 값으로 된 n 개의 행렬 원소로 재구성 하여 반환하는데, 원소들의 총합은 1이다.
-- k차원의 독립변수 x를 'k가 아닌 다른 차원'의 class로 분류할때, softmax function으로 입력되는 Z 값은?
-- Linear regression에서는 k개의 독립변수 x에 대해서, W는 k개, 즉 k x 1 차원이였으나, n개로 분류해야하는 상황에서는 W는 k x n 차원이 되어, n개를 분류하는 가중치 계산을 추가로 진행한다.
+![image-center]({{ "/assets/images/Fig_Softmax4_1.png" | relative_url }}){: .align-center}
 
+![image-center]({{ "/assets/images/Fig_Softmax4_2.png" | relative_url }}){: .align-center}
+
+- k차원의 독립변수 x를 'k가 아닌 다른 차원'의 class로 분류할때, softmax function으로 입력되는 Z 값은?
+![image-center]({{ "/assets/images/Fig_Softmax4_3.png" | relative_url }}){: .align-center}
+
+- Linear regression에서는 k개의 독립변수 x에 대해서, W는 k개, 즉 k x 1 차원이였으나, n개로 분류해야하는 상황에서는 W는 k x n 차원이 되어, n개를 분류하는 가중치 계산을 추가로 진행한다.
+![image-center]({{ "/assets/images/Fig_Softmax4_4.png" | relative_url }}){: .align-center}
 
 ### Cost function
 - 소프트맥스 함수의 최종 비용 함수에서 k가 2라고 가정하면 결국 로지스틱 회귀의 비용 함수와 같음.
+![image-center]({{ "/assets/images/Fig_Softmax4_5.png" | relative_url }}){: .align-center}
 
 ### F.cross_entropy(z, y) 함수
 
@@ -36,7 +44,7 @@ sidebar:
   cost = (y_one_hot * -torch.log(hypothesis)).sum(dim=1).mean()  
 
 - 위 수식의 log 함수와 softmax함수를 다음과 같이 대체가능  
-  torch.log(hypothesis) = torch.log(F.sofㅡtmax(z, dim=1)) = F.log_softmax(z, dim=1)  
+  torch.log(hypothesis) = torch.log(F.softmax(z, dim=1)) = F.log_softmax(z, dim=1)  
   또한, 위 수식에서 y를 one_hot vector로 변환하는 작업을 F.nll_loss() 함수를 써서 생략가능
 
 - 2nd method (high level)  
@@ -45,7 +53,8 @@ sidebar:
 
 - 3rd method (high level) : F.nll_loss()와 F.log_softmax()를 포함하여,  
   cost = F.cross_entropy(z, y)  
-       = F.CrossEntropyLoss(z, y)
+       = F.CrossEntropyLoss(z, y)  
+  (*여기서 z의 마지막 차원(특성값, 독립변수 개수)과 y의 최대값(Class 분류를 위한 Label 값보다 1작은 값)은 같아야 함.)
 
 ## 소프트맥스 회귀 구현
 

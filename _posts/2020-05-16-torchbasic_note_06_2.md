@@ -3,7 +3,7 @@ layout: my_archive
 title: "06-2. MNIST by CNN"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
-tags: [Deep Learning, Pytorch, Basic Practice]
+tags: [Deep Learning, Pytorch, Basic Practice, Convolutional Neural Network, CNN, MNIST]
 sidebar:
   nav: "DL"
 ---
@@ -13,6 +13,8 @@ You can also see the following as [Jupyter notebook](https://github.com/bestofba
 {: .notice--warning}
 
 ### MNIST by CNN
+
+![image-center]({{ "/assets/images/Fig_MNIST_CNN6_1.png" | relative_url }}){: .align-center}
 
 ```python
 import torch
