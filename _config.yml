@@ -20,7 +20,7 @@ title                    : "Still Waters Run Deep"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ethan"
-description              : "새로운 분야(Deep Learning)에 도전을 하는 동안 필요한 정보를 모아 정리하는 곳"
+description              : "Python과 Deep Learning에 관해 공부하면서 몇가지 노트를 정리하는 곳"
 url                      : "https://bestofbad.github.io" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bestofbad/bestofbad.github.io"

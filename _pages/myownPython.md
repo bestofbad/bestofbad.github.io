@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Basic Practice in Pytorch"
-permalink: /torchbasic/
-post_categories: torchbasic
+title: "일반적인 Python 활용 코드"
+permalink: /myPy/
+post_categories: myPy
 author_profile: true
 sidebar:
-  nav: "DL"
+  nav: "myown"
 
 ---
 

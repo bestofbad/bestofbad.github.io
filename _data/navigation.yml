@@ -55,12 +55,12 @@ Python:
 
 # on my own links
 myown:
-  - title: "Codes (개인 작성)"
+  - title: "Codes"
     children:
-      - title: "Data Treatment (분석용)"
-        url: /treatment/
-      - title: "for my work (업무편의용)"
-        url: /work/
+      - title: "Python 일반"
+        url: /myPy/
+      - title: "Deep Learning"
+        url: /myDL/
 
   - title: "Time off (좀 쉬기)"
     children:
