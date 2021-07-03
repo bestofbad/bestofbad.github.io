@@ -12,7 +12,7 @@ sidebar:
 
 ![image-center]({{ "/assets/images/dataframeAvg1.png" | relative_url }}){: .align-center}
 
-- S2, S5 와 S3, S6, S9는 각각 WIDTH와 LENGTH가 중복되나 서로 다른 특성값을 가지고 있다.
+- S2, S5 와 S3, S6, S9는 각각 WIDTH와 LENGTH가 중복되나 서로 다른 특성값을 가지고 있음.
 - 아래와 같이, 중복되는 항목의 첫 번째 Sample Index 'S2, S3'에 각 특성값의 평균을 갖는 새로운 Dataframe을 생성하는 함수 코드
 
 ![image-center]({{ "/assets/images/dataframeAvg2.png" | relative_url }}){: .align-center}
