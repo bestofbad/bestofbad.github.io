@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Deep Learning"
     url: /DL/
-  - title: "Python"
-    url: /Python/
+#  - title: "Python"
+#    url: /Python/
   - title: "on my own"
     url: /myown/
   - title: "Blogroll"
@@ -28,29 +28,29 @@ DL:
       - title: "Useful Tips (유틸 코드)"
         url: /tf-tip/
 
-  - title: "Object Detection"
-    children:
-      - title: "First (미정)"
-        url: /object1/
-      - title: "Second (미정)"
-        url: /object2/
+#  - title: "Object Detection"
+#    children:
+#      - title: "First (미정)"
+#        url: /object1/
+#      - title: "Second (미정)"
+#        url: /object2/
 
 
 # Python links
-Python:
-  - title: "Packages (주요 패키지)"
-    children:
-      - title: "First (미정)"
-        url: /package1/
-      - title: "Second (미정)"
-        url: /package2/
+#Python:
+#  - title: "Packages (주요 패키지)"
+#    children:
+#      - title: "First (미정)"
+#        url: /package1/
+#      - title: "Second (미정)"
+#        url: /package2/
 
-  - title: "Other (그 외)"
-    children:
-      - title: "First (미정)"
-        url: /other1/
-      - title: "Second (미정)"
-        url: /other2/
+#  - title: "Other (그 외)"
+#    children:
+#      - title: "First (미정)"
+#        url: /other1/
+#      - title: "Second (미정)"
+#       url: /other2/
 
 
 # on my own links
@@ -62,12 +62,12 @@ myown:
       - title: "Deep Learning"
         url: /myDL/
 
-  - title: "Time off (좀 쉬기)"
-    children:
-      - title: "Drawing (그림)"
-        url: /drawing/
-      - title: "other(그 외)"
-        url: /killing/
+#  - title: "Time off (좀 쉬기)"
+#    children:
+#      - title: "Drawing (그림)"
+#        url: /drawing/
+#      - title: "other(그 외)"
+#        url: /killing/
 
 
 # Blogroll links
