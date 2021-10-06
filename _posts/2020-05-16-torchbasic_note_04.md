@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "04. Softmax Regression"
+title: "Pytorch 04. Softmax Regression"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Softmax Regression, F.cross_entropy]

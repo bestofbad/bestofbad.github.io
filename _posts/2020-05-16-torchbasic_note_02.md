@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "02. Model Coding 기본 구조"
+title: "Pytorch 02. Model Coding 기본 구조"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Linear Regression, how to make model]

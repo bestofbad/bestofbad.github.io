@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "01. Model을 Class로 만드는 방법"
+title: "Pytorch 01. Model을 Class로 만드는 방법"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, modeling with Class, how to make model in pytorch]

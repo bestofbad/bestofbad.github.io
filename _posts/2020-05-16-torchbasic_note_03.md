@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "03. Logistic Regression 구조"
+title: "Pytorch 03. Logistic Regression 구조"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Logistic Regression]

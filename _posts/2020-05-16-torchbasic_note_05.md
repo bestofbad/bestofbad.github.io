@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "05. MNIST by Softmax"
+title: "Pytorch 05. MNIST by Softmax"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Softmax, MNIST]

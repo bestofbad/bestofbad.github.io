@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "06-2. MNIST by CNN"
+title: "Pytorch 06-2. MNIST by CNN"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Convolutional Neural Network, CNN, MNIST]

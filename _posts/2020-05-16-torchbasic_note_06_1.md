@@ -1,6 +1,6 @@
 ---
 layout: my_archive
-title: "06-1. Convolutional Neural Network 개념"
+title: "Pytorch 06-1. Convolutional Neural Network 개념"
 date: "2020-05-16"
 categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, CNN, Convolutional Neural Network]
