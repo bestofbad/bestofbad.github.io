@@ -3,7 +3,7 @@ layout: single
 title: "About"
 permalink: /about/
 author_profile: true
-
+comments: true
 ---
 
 Welcome to Ethan's Pages.
