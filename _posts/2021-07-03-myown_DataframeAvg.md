@@ -6,6 +6,7 @@ categories: [myown, Codes, myPy]
 tags: [Python, Pandas, DataFrame]
 sidebar:
   nav: "myown"
+comments: true
 ---
 
 이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/pythonCodes/blob/main/DataFrame_%EC%A4%91%EB%B3%B5%ED%95%AD%EB%AA%A9_%ED%8F%89%EA%B7%A0%EA%B3%84%EC%82%B0.ipynb)으로도 보실 수 있습니다.  

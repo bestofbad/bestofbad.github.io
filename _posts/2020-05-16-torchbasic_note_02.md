@@ -6,6 +6,7 @@ categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, Linear Regression, how to make model]
 sidebar:
   nav: "DL"
+comments: true
 ---
 
 이 포스트는 Github 접속 제약이 있을 경우를 위한 것이며, 아래와 동일 내용을 실행 결과와 함께 [Jupyter notebook](https://github.com/bestofbad/Pytorch-Study/blob/master/2.%20Model%20Coding%20%EA%B8%B0%EB%B3%B8%20%EA%B5%AC%EC%A1%B0.ipynb)으로도 보실 수 있습니다.  

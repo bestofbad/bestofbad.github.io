@@ -6,6 +6,7 @@ categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, CNN, Convolutional Neural Network]
 sidebar:
   nav: "DL"
+comments: true
 ---
 
 ## Convolutional Neural Network

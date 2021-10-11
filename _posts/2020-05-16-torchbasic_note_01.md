@@ -6,6 +6,7 @@ categories: [DL, Pytorch, torchbasic]
 tags: [Deep Learning, Pytorch, Basic Practice, modeling with Class, how to make model in pytorch]
 sidebar:
   nav: "DL"
+comments: true
 ---
 
 ## Model을 Class로 만드는 방법
