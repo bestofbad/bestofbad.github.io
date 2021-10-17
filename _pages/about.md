@@ -12,7 +12,7 @@ Welcome to Ethan's Pages.
 다만, 이 곳을 만든지 얼마되지 않아 아직 별건 없습니다...
 
  
-Here is a place where I would gather and record many things I'm interested in.
+Here is a place where I would gather and record things I'm interested in.
 This place has been built since March 2021 so there are currently a few things.
 
-You can find a little notes for studying about basic deep learning with Pytorch at 'Deep Learning'
+So you can find a little notes for studying about basic deep learning.
